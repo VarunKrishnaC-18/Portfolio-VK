@@ -12,11 +12,14 @@ import {
   SiTailwindcss,
   SiNextdotjs,
   SiExpress,
+  SiDocker,
+  SiVercel,
 } from "react-icons/si";
 
-import { FaDatabase } from "react-icons/fa";
+import { FaDatabase, FaAws } from "react-icons/fa";
 import { MdTerminal } from "react-icons/md";
 import { BsBraces } from "react-icons/bs";
+import { AiOutlineGithub } from "react-icons/ai";
 
 export default function Skills() {
   return (
@@ -61,6 +64,19 @@ export default function Skills() {
                 <SkillCircle icon={<BsBraces size={28} />} label="C++" proficiency={70} />
                 <SkillCircle icon={<SiNodedotjs size={32} />} label="Node.js" proficiency={85} />
                 <SkillCircle icon={<SiExpress size={32} />} label="Express.js" proficiency={85} />
+              </div>
+            </div>
+
+            {/* Cloud & DevOps skills */}
+            <div>
+              <h3 className="text-lg font-medium mb-10 text-indigo-300">
+                Cloud & DevOps
+              </h3>
+              <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-x-20 gap-y-16">
+                <SkillCircle icon={<FaAws size={32} />} label="AWS" proficiency={85} />
+                <SkillCircle icon={<SiDocker size={32} />} label="Docker" proficiency={75} />
+                <SkillCircle icon={<AiOutlineGithub size={32} />} label="GitHub Actions" proficiency={85} />
+                <SkillCircle icon={<SiVercel size={32} />} label="Vercel" proficiency={85} />
               </div>
             </div>
 

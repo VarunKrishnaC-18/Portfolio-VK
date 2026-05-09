@@ -3,9 +3,9 @@ import { useEffect, useState } from "react";
 
 const phrases = [
   "I build elegant user interfaces.",
-  "I create robust backend systems.",
+  "I work with modern cloud and backend architectures.",
   "I design machine learning solutions.",
-  "I build intelligent data-driven applications.",
+  "I develop scalable cloud-native applications.",
   "I bring ideas to life with code.",
   "I craft seamless digital experiences."
 ];

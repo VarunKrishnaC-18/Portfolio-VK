@@ -24,7 +24,7 @@ export const content = {
       { name: "React", proficiency: 90 },
       { name: "HTML", proficiency: 95 },
       { name: "CSS", proficiency: 90 },
-      { name: "Tailwind", proficiency: 88 },
+      { name: "Tailwind", proficiency: 85 },
       { name: "JavaScript", proficiency: 85 },
       { name: "Next.js", proficiency: 80 }
     ],
@@ -36,7 +36,7 @@ export const content = {
       { name: "C++", proficiency: 70 }
     ],
     database: [
-      { name: "MySQL", proficiency: 87 },
+      { name: "MySQL", proficiency: 90 },
       { name: "MongoDB", proficiency: 85 },
       { name: "PL/SQL", proficiency: 80 }
     ]

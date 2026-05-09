@@ -11,6 +11,15 @@ export default {
       sans: ["Inter", "sans-serif"],
       heading: ["Space Grotesk", "sans-serif"],
       },
+      animation: {
+        float: 'orbFloat 4s ease-in-out infinite',
+      },
+      keyframes: {
+        orbFloat: {
+          '0%, 100%': { transform: 'translateY(0px)' },
+          '50%': { transform: 'translateY(-20px)' },
+        },
+      },
     },
   },
   plugins: [],
